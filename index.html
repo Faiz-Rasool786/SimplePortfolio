@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My - Portfolio</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html">Faizi</a>
+            </div>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="navbar-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Banner section -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1 class="banner-heading">Welcome to My Portfolio</h1>
+            <p class="banner-subheading">Crafting elegant solutions with modern web technologies</p>
+            <button class="cta-button">Hire Me!</button>
+        </div>
+    </section>
+    <!-- Header Section Ends -->
+    <!-- About section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./myImg.jfif" alt="My Image">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    Hi, I'm Faiz Rasool Faizi, a passionate web developer with expertise in creating dynamic, responsive, and user-friendly websites. I love solving problems and crafting elegant solutions with code.
+                </p>
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h3>My Skills</h3>
+                    <div class="skill">
+                        <label for="html">HTML</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>CSS</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>JavaScript</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>React</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>PHP</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>Tailwind CSS</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>SEO</label>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section Ends -->
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-front">
+                    <img src="./web-development.png" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>$500</p>
+                </div>
+                <div class="card-back">
+                    <p>
+                        We create responsive and dynamic websites tailored to your business needs.
+                    </p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-front">
+                    <img src="./digital-marketing.png" alt="Digital Marketing">
+                    <h3>Digital Marketing</h3>
+                    <p>$300</p>
+                </div>
+                <div class="card-back">
+                    <p>Grow your online presence with our strategic marketing campaigns.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-front">
+                    <img src="./seo-removebg.png" alt="SEO">
+                    <h3>SEO</h3>
+                    <p>$200</p>
+                </div>
+                <div class="card-back">
+                    <p>
+                        Optimize your website to rank higher in search engine results.
+                    </p>
+                </div>
+            </div>
+            <!-- card 4 -->
+            <div class="card">
+                <div class="card-front">
+                    <img src="./mobile-app-removebg.png" alt="Mobile Applications">
+                    <h3>Mobile Applications</h3>
+                    <p>$800</p>
+                </div>
+                <div class="card-back">
+                    <p>Develop feature-rich mobile applications for Android and iOS platforms.</p>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card">
+                <div class="card-front">
+                <img src="video-editing.png" alt="Video Editing">
+                <h3>Video Editing</h3>
+                <p>$250</p>
+                </div>
+                <div class="card-back">
+                <p>Professional video editing services to make your content stand out.</p>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="card">
+                <div class="card-front">
+                <img src="graphic-design.png" alt="Graphic Designing">
+                <h3>Graphic Designing</h3>
+                <p>$400</p>
+                </div>
+                <div class="card-back">
+                <p>Creative designs for branding, marketing, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section Ends -->
+    <!-- Contcatct Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-image">
+                <img src="./contact-img.png" alt="Contact US">
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Sections Ends -->
+    <!-- Footer -->
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Social Media Links -->
+            <div class="footer-social">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                        <img src="./icons/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                        <img src="./icons/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <img src="./icons/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                        <img src="./icons/linkedin.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Faizi's Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const navbarLinks = document.querySelector('.navbar-links');
+            navbarLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
